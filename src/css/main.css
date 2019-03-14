@@ -30,16 +30,14 @@ body {
       -webkit-border-radius: 150px;
               border-radius: 150px;
       z-index: 2; }
-    .user__info-name {
-      width: 321px; }
-      .user__info-name h3 {
-        font-size: 16px;
-        color: #333333;
-        margin-top: 5px;
-        font-weight: 600; }
-      .user__info-name h2 {
-        color: #808080;
-        font-size: 12px; }
+    .user__info-name h3 {
+      font-size: 16px;
+      color: #333333;
+      margin-top: 5px;
+      font-weight: 600; }
+    .user__info-name h2 {
+      color: #808080;
+      font-size: 12px; }
     .user__info-title {
       display: -webkit-box;
       display: -webkit-flex;
@@ -58,6 +56,7 @@ body {
               border-radius: 3px; }
       .user__info-title h1 {
         margin-left: 47px;
+        margin-bottom: 0;
         font-size: 14px;
         color: #333333; }
   .user__statistic {
@@ -212,9 +211,16 @@ body {
   .user {
     width: 360px; }
     .user .user__info-photo {
-      width: 59px;
-      height: 59px; }
+      width: 52px;
+      height: 52px;
+      margin: 0; }
     .user .user__info-title {
       width: 320px; }
       .user .user__info-title h1 {
-        margin-left: 47px; } }
+        margin-left: 6px; }
+    .user .user__info-name {
+      padding-left: 10px; } }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .user__statistic .user__statistic-elem-graf .wrap span {
+    margin-top: -11px; } }
