@@ -189,7 +189,7 @@ body {
       margin: auto;
       width: 280px;
       margin: 10px auto;
-      font-weight: 700;
+      font-family: 'PT Sans', sans-serif;
       border: 1px solid #fdd639;
       background-color: #fdd639;
       -webkit-border-radius: 70px;
