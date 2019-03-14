@@ -1,0 +1,21 @@
+@media screen and (max-width: 576px) {
+  .user__container {
+    padding: 0 8px; } }
+
+@media screen and (max-width: 470px) {
+  .user {
+    width: 360px; }
+    .user .user__info-photo {
+      width: 52px;
+      height: 52px;
+      margin: 0; }
+    .user .user__info-title {
+      width: 320px; }
+      .user .user__info-title h1 {
+        margin-left: 6px; }
+    .user .user__info-name {
+      padding-left: 10px; } }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .user__statistic .user__statistic-elem-graf .wrap span {
+    margin-top: -11px; } }

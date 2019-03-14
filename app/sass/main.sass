@@ -1,0 +1,193 @@
+$border: 1px solid red
+$color-grey: #333333
+
+body 
+    font-family: Arial, Helvetica, sans-serif
+.user
+    border: 1px solid $color-grey
+    max-width: 489px
+    height: 100%
+    margin: auto
+    bacground-color: #ffffff
+    &__container
+        padding: 0 19px
+    &__info
+        display: flex
+        justify-content: flex-end        
+        margin-top: 16px   
+        &-photo 
+            width: 120px
+            height: 120px
+            margin-right: 10px
+            background-image: url('../img/user_photo.jpg')
+            background-position: top center         
+            background-size: 150%
+            border-radius: 150px
+            z-index: 2
+        &-name         
+            h3 
+                font-size: 16px
+                color: $color-grey
+                margin-top: 5px
+                font-weight: 600               
+            h2
+                color: #808080
+                font-size: 12px
+        &-title
+            display: flex
+            align-items: center
+            width: 367px
+            margin-left: -47px 
+            height: 56px
+            background-color: #fffbc8
+            border: 1px solid #cecabf
+            border-radius: 3px
+            h1                
+                margin-left: 47px
+                margin-bottom: 0 
+                font-size: 14px
+                color: $color-grey                
+    &__statistic
+        display: flex;
+        justify-content: flex-end;
+        table
+            width: 320px
+            tbody
+                tr 
+                    height: 25px
+                    font-size: 14px
+                    .user__statistic-elem-top
+                        padding-top: 10px
+                    .user__statistic-elem-bottom
+                        padding-bottom: 10px
+            tfoot 
+                tr
+                    height: 40px
+        .user__statistic-sum 
+            text-align: center
+            width: 102px
+        .user__statistic-border-bottom
+            border-bottom: 1px solid #cccccc
+            color: #333333
+        .user__statistic-elem-graf
+            .wrap 
+                display: flex
+                align-items: center                
+                border-top-right-radius: 2px
+                border-bottom-right-radius: 2px
+                height: 25px              
+                span 
+                    width: 220px
+                    padding-left: 6px
+                    position: absolute
+        .user__statistic-elem-graf-1
+            .wrap
+                width: 220px
+                background-color: #b1e19b
+                border-left: 1px solid #83b26d              
+        .user__statistic-elem-graf-2
+            .wrap 
+                width: 53px
+                background-color: #ace2f8
+                border-left: 1px solid #7eb4ca
+        .user__statistic-elem-graf-3
+            .wrap 
+                width: 20px
+                background-color: #ace2f8
+                border-left: 1px solid #7eb4ca
+    &__reviews 
+        display: inline-block
+        width: 100%
+        &-left, &-right 
+            ul 
+                margin: 0
+                padding: 0
+                display: inline-flex
+                list-style-type: none              
+        &-left
+            float: left           
+            strong
+                font-size: 16px
+            a 
+                text-decoration: underline
+                color: #005da1
+                font-size: 14px
+                padding-left: 7px
+        &-right
+            float: right       
+            color: $color-grey
+            font-size: 12px
+                      
+            ul 
+                padding: 4px 0
+                li 
+                    padding-left: 20px
+                    i 
+                        color: #73b4d5
+                        padding-right: 5px
+                    span
+                        font-size: 12px
+                        color: $color-grey
+    &__comments 
+        &-name 
+            span 
+                color: #808080
+                font-size: 12px
+        &-article
+            margin-top: 15px 
+            p 
+                border: 1px solid #cfcfcf
+                background-color: #f2fbff
+                padding: 15px 20px
+                font-size: 14px
+                position: relative            
+            p:before, p:after 
+                content: ''
+                position: absolute
+                left: 20px
+                top: -12px
+                border: 6px solid transparent
+                border-bottom: 6px solid #cfcfcf
+                border-left: 6px solid #cfcfcf
+            p:after 
+                border: 5px solid transparent
+                border-bottom: 5px solid #f2fbff
+                border-left: 5px solid #f2fbff
+                left: 21px
+                top: -10px 
+    &__message
+        margin-top: 20px
+        height: 195px
+        background-color: #f2f2f2
+        padding: 30px 0 34px 0
+        form
+            textarea 
+                width: 100%
+                margin-bottom: 5px
+            input
+                display: block               
+                font-size: 16px
+                padding: 9px 0
+                margin: auto
+                width: 280px
+                margin: 10px auto                
+                font-weight: 700
+                border: 1px solid #fdd639
+                background-color: #fdd639
+                border-radius: 70px
+                transition: all 0.3s
+            input:hover 
+                transition: all 0.3s
+                background-color: #fff
+
+@import media
+            
+            
+                
+
+
+
+                
+
+
+            
